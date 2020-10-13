@@ -1,0 +1,22 @@
+{
+  "name": "codehelpers",
+  "version": "1.0.0",
+  "description": "A super fast light weight utility set of helpers functions",
+  "main": "index.ts",
+  "repository": "https://github.com/codekyd/codehelpers",
+  "author": "@codekyd",
+  "scripts": {
+    "test": "",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "eslint": "^7.11.0",
+    "prettier": "2.1.2",
+    "typescript": "^4.0.3"
+  }
+}
